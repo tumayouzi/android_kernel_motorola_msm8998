@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm64 4.4.181 Kernel Configuration
+# Linux/arm64 4.4.182 Kernel Configuration
 #
 CONFIG_ARM64=y
 CONFIG_64BIT=y
@@ -536,7 +536,10 @@ CONFIG_COREDUMP=y
 # CONFIG_COREDUMP_GZ is not set
 # CONFIG_COREDUMP_PERMISSION_HACK is not set
 CONFIG_COMPAT=y
+CONFIG_KUSER_HELPERS=y
 CONFIG_KEYS_COMPAT=y
+# CONFIG_COMPAT_VDSO is not set
+CONFIG_CROSS_COMPILE_ARM32=""
 
 #
 # Power management options
